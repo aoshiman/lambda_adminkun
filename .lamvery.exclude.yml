@@ -1,0 +1,5 @@
+- ^\.lamvery\.yml$
+- ^\.lamvery\.event\.yml$
+- ^\.lamvery\.secret\.yml$
+- ^\.lamvery\.exclude\.yml$
+- ^\.envrc$
