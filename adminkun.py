@@ -70,7 +70,7 @@ def tweet_episode():
         if not eps_id in lists:
             post = u'{0} {1}'.format(title, url)
             try:
-                #  twitter.update_status(status=post)
+                twitter.update_status(status=post)
                 print(post)
             except TwythonError as e:
                 print(e)
