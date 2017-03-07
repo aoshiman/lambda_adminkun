@@ -66,7 +66,7 @@ def tweet_episode():
     for episode in episodes:
         url, title = episode[1], episode[0]
         _eps_id = url.split('/')
-        eps_id = _eps_id[7]
+        eps_id = _eps_id[5] + _eps_id[6]
         if not eps_id in lists:
             post = u'{0} {1}'.format(title, url)
             try:
